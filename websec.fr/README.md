@@ -1,3 +1,15 @@
+---
+layout: blog
+title: "[writeup] websec.ft wargames CTF Writeup"
+date: 2020-05-27T18:23:59.297Z
+tags:
+  - ctf
+  - writeup
+---
+CTF writeup of http://websec.fr/ war-games.
+
+<!--more-->
+
 # websec.fr writeups
 
 ## Level 01
