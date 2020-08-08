@@ -1,10 +1,9 @@
 ---
 layout: blog
-title: "[writeup] JOINTS20 Web Writeups"
+title: "JOINTS20 Web Writeups"
 date: 2020-05-08T18:31:53.905Z
 tags:
-  - ctf
-  - writeup
+  - ctf_writeup
 ---
 
 JOINTS20 Writeup (WEB)
@@ -13,7 +12,7 @@ JOINTS20 Writeup (WEB)
 
 This is my writeup on JOINTS20, I could not play it on time so I play the game after it's over
 
-## `ezStringMatching`
+## ezStringMatching
 
 from the start, there is nothing suspicious in the web, so I tried to check the network tab on my browser and see this in the header or you can just simply use curl --head CTF.joints.id:40002 to see the header of the request:
 
@@ -62,7 +61,7 @@ The hash value of 240610708 is 0e462097431906509019562988736854 and the hash val
 
 > JOINTS20{b4bytyp3ju99lin9*md5*}
 
-## `Twitter Collection`
+## Twitter Collection
 
 this page provides a URL box that we can feel with a link and scrap the image if it succeeds it will send alert:
 
